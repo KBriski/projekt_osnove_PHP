@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tražilica</title>
+    <link rel="stylesheet" href="6_trazilica.css">
+</head>
+<body>
+
+    <h3>TRAŽILICA</h3>
+<hr>
+    <p>Ovdje možete pretražiti gradove koji su u ponudi putovanja <br> 
+        na internetskoj stranici  Putničke agencije "Putnik".</p>
+
+    <br><br><br>
+
+    <div class="container">
+        <input id="tražilica" 
+               onkeyup="pretražiGrad()" 
+               type="text" name="tražilica" 
+               placeholder="Unesite grad...">
+
+         <ul id='lista_gradova'>
+            
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Osijek</a></li>
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Našice</a></li>
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Zagreb</a></li>
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Požega</a></li>
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Budimpešta</a></li>
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Ljubljana</a></li>
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Beograd</a></li>
+            <li class="grad"><a href="4_jednodnevna_putovanja.html">Sarajevo</a></li>
+
+            <li class="grad"><a href="5_visednevna_putovanja.html">Pula</a></li>
+            <li class="grad"><a href="5_visednevna_putovanja.html">Split</a></li>
+            <li class="grad"><a href="5_visednevna_putovanja.html">Zadar</a></li>
+            <li class="grad"><a href="5_visednevna_putovanja.html">Dubrovnik</a></li>
+            <li class="grad"><a href="5_visednevna_putovanja.html">Maribor</a></li>
+            <li class="grad"><a href="5_visednevna_putovanja.html">Graz</a></li>
+            <li class="grad"><a href="5_visednevna_putovanja.html">Mostar</a></li>
+            <li class="grad"><a href="5_visednevna_putovanja.html">Pariz</a></li>
+
+        </ul>
+
+    </div>
+
+    <a href="index.html" title="Povratak na početnu stranicu Putničke agencije Putnik.">  
+        <!--target=_blank = otvara u novom prozoru, bez toga otvara u tom u kojem je
+    a tittle da kad se prijeđe preko riječi da piše što je napisano-->
+       <button>POČETNA</button>
+    </a>
+
+    <script src="6_trazilica.js"></script>   <!--taj dio za js neka bude na kraju bodija-->
+
+</body>
+</html>

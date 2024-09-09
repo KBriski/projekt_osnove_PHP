@@ -1,0 +1,83 @@
+
+
+body {
+    background-image: url(putovanja.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /*width:100% ;
+    height: auto;*/
+
+/*to je da slika bude taman ni prevelika ni premala*/
+}
+
+
+h3 {
+   /* border-style: double;*/
+     color: black;
+     font-family: "press Start 2P", "consolas";
+     font-size: 50px;
+     text-align: center;
+     position: top;
+}
+
+table{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: lightblue;
+    width: relative;
+    display: flex; /*relative daje da je plava boja od ruba do ruba*/
+    justify-content: center; /* Horizontalno centriranje */
+    align-items: center;     /* Vertikalno centriranje */
+    position:center;
+    margin:auto; 
+    padding: 15pxs;
+}
+
+p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: lightblue;
+    width: relative;
+    justify-content: center; /* Horizontalno centriranje */
+    align-items: center;     /* Vertikalno centriranje */
+    position:center;
+    margin:auto;
+    padding: 15px;
+}
+
+button{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: 5px dotted;
+    border-radius: 10rem;
+    padding: 10px;
+    background-color: lightskyblue;
+    font-size: 15px;
+    font-style: bold;
+    font-family: "press Start 2P", "consolas";
+    text-align: center;
+   }
+
+   button:hover {
+    background-color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+    

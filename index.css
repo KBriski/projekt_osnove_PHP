@@ -1,0 +1,68 @@
+
+body {
+    background-color: lightblue;
+    margin: 5px;
+}
+
+h1{
+   border: 3px dotted;
+    font-size: 55px;
+    text-align: center;
+    color: darkblue;
+    font-family: "press Start 2P", "consolas";
+}
+
+p{
+    font-size: 25px;
+    color: darkblue;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    width: relative;
+}
+
+
+.navbar ul{
+    font-size: 20px;
+    color: darkblue;
+    border: 3px dotted;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbar a{    /*za linkove*/
+    color: darkblue;
+    padding: 15px;
+    display: block; 
+}
+
+/*.navbar a :hover{       /*hover kad se prijeđe preko toga bit će zadana boja
+    background-color:yellow;
+    color: green;
+}*/
+
+.navbar li{  /*za listu*/
+    float: left;   /*left da riječi redom jedna do druge od L do D*/
+    text-align: center;
+}
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*sve mi se poremetila taj navbar, ide naopako, s desna na lijevo*/
+
+img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+
+
