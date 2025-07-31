@@ -25,7 +25,7 @@ Baza podataka: Aplikacija koristi **MySQL bazu** za pohranu rezervacija putovanj
 Kako testirati: PHP dio zahtijeva lokalni server (npr. XAMPP)
 
 1. Pokreni lokalni server (npr. `http://localhost/putnik`)
-2. Uvezi SQL datoteku u MySQL (ako postoji)
+2. Uvezi SQL datoteku u MySQL (putnicka_agencija_putnik.sql)
 3. Otvori `rezervacije.html` i testiraj unos
 4. Pogledaj `top_rezervacije.php` za prikaz najčešćih destinacija
 
@@ -37,4 +37,4 @@ Svrha: Svrha ovog projekta je izrada jednostavne i funkcionalne web stranice za 
 - Online rezervaciju putovanja (dinamički dio)
 - Prikaz najpopularnijih destinacija (top rezervacije iz baze)
 
-Projekt izrađen tijekom studija u sklopu koelgija Osnove PHP. Primjer za korištenje frontend (HTML, CSS, JS) i backend tehnologija (PHP, MySQL) u izradi dinamičke web stranice.
+Projekt izrađen tijekom studija u sklopu kolegija Osnove PHP. Primjer za korištenje frontend (HTML, CSS, JS) i backend tehnologija (PHP, MySQL) u izradi dinamičke web stranice.
