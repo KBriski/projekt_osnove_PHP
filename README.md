@@ -1,10 +1,7 @@
 # projekt_osnove_PHP
-Putnička agencija "Putnik" - dinamička web stranica za pregled i rezervaciju putovanja.
+Putnička agencija "Putnik" - dinamička web aplikacija za pregled i rezervaciju putovanja. Na ovoj stranici možete saznati više o agenciji, pregledati ponude putovanja i napraviti online rezervaciju.
 
-Ova web stranica pruža informacije o agenciji, ponudi putovanja i omogućuje pretragu po gradovima.
-
-O projektu: Jednostavna statička web stranica izrađena u HTML-u, CSS-u i JavaScriptu.
-Namijenjena je prezentaciji putničke agencije i ponudi putovanja — jednodnevnih i višednevnih izleta u Hrvatskoj i inozemstvu.
+O projektu:  WEb aplikacija izrađena u HTML-u, CSS-u, JavaScriptu i PHP-u. Služi za prikaz ponude putovanja, omogućuje online rezervaciju i prikazuje najpopularnije destinacije.
 
 Sadržaj:
 
@@ -15,10 +12,29 @@ Sadržaj:
 - visednevna.html- Popis višednevnih putovanja
 - trazilica.html - Jednostavna tražilica gradova (JS)
 - .css - Prilagođeni CSS za svaku podstranicu
-- rezervacije.html - mogućnost rezervacije putovanja
-- top_rezervacije.php - omogućuje pregled top destinacije koje su korisnici rezervirali
-- 
+- rezervacije.html - forma za unos rezervacije (frontend)
+- top_rezervacije.php - Pregled top rezerviranih destinacija (backend)
+  
 Tehnologije:
-- HTML5, CSS3, JavaScript (osnovna tražilica), PHP, baza podataka MySQL
+- HTML5, CSS3, JavaScript (tražilica)
+- PHP (rezervacije, dohvat iz baze)
+- MySQL (za pohranu rezervacija)
 
-Svrha: Ovaj projekt napravljen je kao praktičan primjer statičke web stranice za prikaz sadržaja putničke agencije. Može se nadograditi koristeći PHP kako bi bilo dinamičnije i mogao omogućavati registraciju putovanja.
+Baza podataka: Aplikacija koristi **MySQL bazu** za pohranu rezervacija putovanja. Stranica `top_rezervacije.php` dohvaća i prikazuje najčešće rezervirane destinacije.
+
+Kako testirati: PHP dio zahtijeva lokalni server (npr. XAMPP)
+
+1. Pokreni lokalni server (npr. `http://localhost/putnik`)
+2. Uvezi SQL datoteku u MySQL (ako postoji)
+3. Otvori `rezervacije.html` i testiraj unos
+4. Pogledaj `top_rezervacije.php` za prikaz najčešćih destinacija
+
+Svrha: Svrha ovog projekta je izrada jednostavne i funkcionalne web stranice za putničku agenciju Putnik, koja korisnicima omogućuje:
+
+- Informiranje o ponudi jednodnevnih i višednevnih putovanja
+- Pregled osnovnih podataka o agenciji i kontakt informacija
+- Pretragu gradova putem jednostavne tražilice
+- Online rezervaciju putovanja (dinamički dio)
+- Prikaz najpopularnijih destinacija (top rezervacije iz baze)
+
+Projekt izrađen tijekom studija u sklopu koelgija Osnove PHP. Primjer za korištenje frontend (HTML, CSS, JS) i backend tehnologija (PHP, MySQL) u izradi dinamičke web stranice.
